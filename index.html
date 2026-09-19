@@ -276,5 +276,29 @@
   <p class="fineprint">© 2026 Вива Стар, Кавадарци. Стоматолог Кавадарци · Естетска стоматологија Кавадарци · Рендген и дијагностика Кавадарци · Stomatolog Kavadarci · Zabar Kavadarci · Dentist Kavadarci.</p>
 </footer>
 
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.gallery a'));
+  if(!links.length) return;
+  var lb = document.createElement('div');
+  lb.className = 'lb';
+  lb.innerHTML = '<button class="lb-x" aria-label="Затвори">×</button><button class="lb-p" aria-label="Претходна">‹</button><img alt=""><button class="lb-n" aria-label="Следна">›</button>';
+  document.body.appendChild(lb);
+  var img = lb.querySelector('img'), cur = 0;
+  function show(i){ cur = (i + links.length) % links.length; img.src = links[cur].href; img.alt = links[cur].querySelector('img').alt; lb.classList.add('on'); document.body.style.overflow='hidden'; }
+  function hide(){ lb.classList.remove('on'); document.body.style.overflow=''; }
+  links.forEach(function(a, i){ a.addEventListener('click', function(e){ e.preventDefault(); show(i); }); });
+  lb.querySelector('.lb-x').addEventListener('click', hide);
+  lb.querySelector('.lb-p').addEventListener('click', function(){ show(cur-1); });
+  lb.querySelector('.lb-n').addEventListener('click', function(){ show(cur+1); });
+  lb.addEventListener('click', function(e){ if(e.target === lb) hide(); });
+  document.addEventListener('keydown', function(e){
+    if(!lb.classList.contains('on')) return;
+    if(e.key === 'Escape') hide();
+    if(e.key === 'ArrowLeft') show(cur-1);
+    if(e.key === 'ArrowRight') show(cur+1);
+  });
+})();
+</script>
 </body>
 </html>

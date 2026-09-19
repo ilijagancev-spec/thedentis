@@ -107,3 +107,13 @@ h1,h2,h3{ font-family:var(--font-display); letter-spacing:-.01em; }
 .site-footer a{ color:#fff; }
 .site-footer p{ margin:4px 0; font-size:14.5px; }
 .fineprint{ opacity:.65; font-size:12.5px !important; margin-top:14px !important; }
+
+/* lightbox */
+.lb{ position:fixed; inset:0; background:rgba(8,28,34,.92); display:none; align-items:center; justify-content:center; z-index:100; }
+.lb.on{ display:flex; }
+.lb img{ max-width:88vw; max-height:88vh; border-radius:10px; box-shadow:0 30px 80px rgba(0,0,0,.5); }
+.lb button{ position:absolute; background:rgba(255,255,255,.12); color:#fff; border:0; cursor:pointer; border-radius:50%; width:46px; height:46px; font-size:26px; line-height:1; display:flex; align-items:center; justify-content:center; }
+.lb button:hover{ background:rgba(255,255,255,.25); }
+.lb-x{ top:18px; right:18px; }
+.lb-p{ left:14px; top:50%; transform:translateY(-50%); }
+.lb-n{ right:14px; top:50%; transform:translateY(-50%); }
