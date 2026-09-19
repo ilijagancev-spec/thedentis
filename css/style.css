@@ -72,7 +72,9 @@ h1,h2,h3{ font-family:var(--font-display); letter-spacing:-.01em; }
 
 /* gallery */
 .gallery{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
-.gallery img{ border-radius:14px; aspect-ratio:1/1; object-fit:cover; }
+.gallery a{ display:block; border-radius:14px; overflow:hidden; }
+.gallery img{ border-radius:14px; aspect-ratio:1/1; object-fit:cover; width:100%; transition:transform .25s; }
+.gallery a:hover img{ transform:scale(1.04); }
 
 /* reviews */
 .reviews{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
