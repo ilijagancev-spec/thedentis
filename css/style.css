@@ -90,6 +90,8 @@ h1,h2,h3{ font-family:var(--font-display); letter-spacing:-.01em; }
 .section-contact{ padding-bottom:80px; }
 .contact-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px; }
 .contact-card{ background:linear-gradient(180deg,#F4FAFC,#fff); border:1px solid var(--line); border-radius:14px; padding:22px; }
+.cicon{ width:46px; height:46px; border-radius:13px; background:linear-gradient(160deg,var(--teal),var(--teal-deep)); display:flex; align-items:center; justify-content:center; margin-bottom:12px; box-shadow:0 6px 16px rgba(22,128,143,.28); }
+.cicon svg{ width:22px; height:22px; }
 .contact-card h3{ margin:0 0 8px; font-size:13px; text-transform:uppercase; letter-spacing:.14em; color:var(--orange); }
 .big-link{ font-family:var(--font-display); font-weight:700; font-size:18px; text-decoration:none; color:var(--teal-deep); word-break:break-word; }
 .contact-card p{ font-size:14px; color:var(--ink-soft); margin:8px 0 0; }
