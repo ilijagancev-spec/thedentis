@@ -22,7 +22,7 @@
 - Pediatric dentistry (детска стоматологија)
 - Oral surgery and extractions (орална хирургија)
 - Aesthetic dentistry — smile design, veneers, metal-free crowns (естетска стоматологија) ← specialty
-- In-house dental X-ray (забен рендген во ординацијата) ← same-visit diagnostics
+- In-house X-ray and diagnostics (рендген и дијагностика во ординацијата) ← same-visit diagnostics
 
 ## Booking
 Call +389 70 396 301. Appointments recommended; same-day slots for acute pain when possible.
