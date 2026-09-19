@@ -56,12 +56,10 @@
     "sameAs": [
       "https://www.facebook.com/vivastar.mk"
     ],
-    "openingHoursSpecification": [{
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "08:00",
-      "closes": "20:00"
-    }],
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Thursday"], "opens": "09:00", "closes": "17:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Friday"], "opens": "12:00", "closes": "20:00"}
+    ],
     "medicalSpecialty": ["Dentistry"],
     "founder": {
       "@type": "Person",
@@ -90,7 +88,7 @@
       {"@type":"Question","name":"Дали е потребно закажување кај Вива Стар?","acceptedAnswer":{"@type":"Answer","text":"Да, за најкратко чекање закажете на 070 396 301. За итни болки ве примаме најбрзо што можеме истиот ден."}},
       {"@type":"Question","name":"Дали Вива Стар прави рендген снимки во ординацијата?","acceptedAnswer":{"@type":"Answer","text":"Да, имаме забен рендген на лице место — дијагноза и план на терапија во истата посета."}},
       {"@type":"Question","name":"Дали Вива Стар работи со деца?","acceptedAnswer":{"@type":"Answer","text":"Да, детската стоматологија ни е секојдневие, со нежен пристап кон најмалите пациенти."}},
-      {"@type":"Question","name":"Кое е работното време на Вива Стар Кавадарци?","acceptedAnswer":{"@type":"Answer","text":"Понеделник до петок од 08:00 до 20:00 часот."}},
+      {"@type":"Question","name":"Кое е работното време на Вива Стар Кавадарци?","acceptedAnswer":{"@type":"Answer","text":"Понеделник, вторник и четврток 09:00–17:00; среда и петок 12:00–20:00. Викенд — затворено."}},
       {"@type":"Question","name":"Каде се наоѓа стоматолошка ординација Вива Стар?","acceptedAnswer":{"@type":"Answer","text":"На бул. Македонија 3-ж во Кавадарци."}}
     ]
   }
@@ -127,7 +125,7 @@
         <a class="btn btn-primary" href="tel:+38970396301">Закажи термин · 070 396 301</a>
         <a class="btn btn-ghost" href="https://maps.app.goo.gl/vikArWwnkr5YXC3K7" rel="noopener" target="_blank">📍 Како до нас</a>
       </div>
-      <p class="hero-hours">Работно време: понеделник – петок, 08:00 – 20:00 ч</p>
+      <p class="hero-hours">Работно време: пон · вто · чет 09–17 ч · сре · пет 12–20 ч</p>
     </div>
     <div class="hero-photo">
       <img src="assets/smile.jpg" alt="Здрава бела насмевка — пациент на стоматолошка ординација Вива Стар Кавадарци" width="800" height="400" fetchpriority="high">
@@ -211,7 +209,7 @@
       </details>
       <details>
         <summary>Кое е работното време?</summary>
-        <p>Понеделник до петок од 08:00 до 20:00 часот. Викенд — само по договор за итни случаи.</p>
+        <p>Понеделник, вторник и четврток 09:00–17:00; среда и петок 12:00–20:00. Викенд — затворено (за итни случаи јавете се).</p>
       </details>
       <details>
         <summary>Каде се наоѓате?</summary>
@@ -241,7 +239,7 @@
       </div>
       <div class="contact-card">
         <h3>Адреса и време</h3>
-        <p><strong>бул. Македонија 3-ж, Кавадарци</strong><br><span class="muted">(спроти ресторан Ексклузив)</span><br>пон – пет: 08:00 – 20:00 ч</p>
+        <p><strong>бул. Македонија 3-ж, Кавадарци</strong><br><span class="muted">(спроти ресторан Ексклузив)</span><br>пон · вто · чет: 09–17 ч<br>сре · пет: 12–20 ч</p>
         <a class="big-link" href="https://maps.app.goo.gl/vikArWwnkr5YXC3K7" rel="noopener" target="_blank">Google Maps →</a>
       </div>
     </div>

@@ -52,12 +52,10 @@
     },
     "hasMap": "https://maps.app.goo.gl/vikArWwnkr5YXC3K7",
     "sameAs": ["https://www.facebook.com/vivastar.mk"],
-    "openingHoursSpecification": [{
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-      "opens": "08:00",
-      "closes": "20:00"
-    }],
+    "openingHoursSpecification": [
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Thursday"], "opens": "09:00", "closes": "17:00"},
+      {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Friday"], "opens": "12:00", "closes": "20:00"}
+    ],
     "medicalSpecialty": ["Dentistry"],
     "founder": { "@type": "Person", "name": "Dr. Nadica V'chkova", "jobTitle": "Doctor of Dental Medicine" },
     "availableService": [
@@ -81,7 +79,7 @@
       {"@type":"Question","name":"Do I need an appointment at Viva Star?","acceptedAnswer":{"@type":"Answer","text":"Yes — call +389 70 396 301 to book. For acute pain we do our best to see you the same day."}},
       {"@type":"Question","name":"Does Viva Star have a dental X-ray on site?","acceptedAnswer":{"@type":"Answer","text":"Yes, we take dental X-rays in the clinic, so you get diagnosis and a treatment plan in a single visit."}},
       {"@type":"Question","name":"Do you treat children?","acceptedAnswer":{"@type":"Answer","text":"Yes — pediatric dentistry is part of our everyday work, with a gentle approach for children."}},
-      {"@type":"Question","name":"What are the opening hours?","acceptedAnswer":{"@type":"Answer","text":"Monday to Friday, 08:00–20:00. Weekends by arrangement for emergencies."}},
+      {"@type":"Question","name":"What are the opening hours?","acceptedAnswer":{"@type":"Answer","text":"Monday, Tuesday and Thursday 09:00–17:00; Wednesday and Friday 12:00–20:00. Weekends closed."}},
       {"@type":"Question","name":"Where is Viva Star located?","acceptedAnswer":{"@type":"Answer","text":"Blvd. Makedonija 3-zh, Kavadarci, North Macedonia."}}
     ]
   }
@@ -117,7 +115,7 @@
         <a class="btn btn-primary" href="tel:+38970396301">Book now · +389 70 396 301</a>
         <a class="btn btn-ghost" href="https://maps.app.goo.gl/vikArWwnkr5YXC3K7" rel="noopener" target="_blank">📍 Find us</a>
       </div>
-      <p class="hero-hours">Open Monday – Friday, 08:00 – 20:00</p>
+      <p class="hero-hours">Open Mon · Tue · Thu 09:00–17:00 · Wed · Fri 12:00–20:00</p>
     </div>
     <div class="hero-photo">
       <img src="../assets/smile.jpg" alt="Healthy white smile — patient of Viva Star dental clinic Kavadarci" width="800" height="400" fetchpriority="high">
@@ -196,7 +194,7 @@
       </details>
       <details>
         <summary>What are your opening hours?</summary>
-        <p>Monday to Friday, 08:00–20:00. Weekends by arrangement for emergencies.</p>
+        <p>Monday, Tuesday and Thursday 09:00–17:00; Wednesday and Friday 12:00–20:00. Weekends closed (call us for emergencies).</p>
       </details>
       <details>
         <summary>Where are you located?</summary>
@@ -225,7 +223,7 @@
       </div>
       <div class="contact-card">
         <h3>Address &amp; hours</h3>
-        <p><strong>Blvd. Makedonija 3-zh, Kavadarci</strong><br><span class="muted">(opposite Restaurant Ekskluziv)</span><br>Mon – Fri: 08:00 – 20:00</p>
+        <p><strong>Blvd. Makedonija 3-zh, Kavadarci</strong><br><span class="muted">(opposite Restaurant Ekskluziv)</span><br>Mon · Tue · Thu: 09:00–17:00<br>Wed · Fri: 12:00–20:00</p>
         <a class="big-link" href="https://maps.app.goo.gl/vikArWwnkr5YXC3K7" rel="noopener" target="_blank">Google Maps →</a>
       </div>
     </div>
