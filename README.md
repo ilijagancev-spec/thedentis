@@ -20,20 +20,20 @@
    git push -u origin main
    ```
 3. На GitHub: Settings → Pages → Source: `main` / root → Save.
-4. Страницата ќе биде на `https://<корисничко-име>.github.io/thedentis/`
+4. Страницата ќе биде на `https://<корисничко-име>.github.io/thedentis/`, а по поврзување на доменот — на `https://vivastar-dentistry.com/`
 
-## ⚠️ ЗАДОЛЖИТЕЛНО пред објавување
+## Домен: vivastar-dentistry.com
 
-1. **Заменете го доменот** во сите датотеки — placeholder е `vivastar-kavadarci.github.io`:
-   ```bash
-   cd ~/projects/thedentis
-   grep -rl "vivastar-kavadarci.github.io" . | xargs sed -i '' 's/vivastar-kavadarci.github.io/<вистинскиот-домен>/g'
-   ```
-2. **Проверете ја е-поштата** — ставена е `vivstarng@gmail.com` како placeholder. Ако вистинската адреса е друга:
-   ```bash
-   grep -rl "vivstarng@gmail.com" . | xargs sed -i '' 's/vivstarng@gmail.com/вистинска@адреса/g'
-   ```
-3. Потврдете телефон (070 396 301), адреса (бул. Македонија 3-ж) и работно време (пон–пет 08–20).
+Сите URL-а во датотеките веќе покажуваат на **https://vivastar-dentistry.com/** и има `CNAME` датотека за GitHub Pages.
+
+**Чекори за поврзување:**
+1. Купете го доменот (Namecheap, Porkbun или Cloudflare Registrar — ~$10/год за .com).
+2. Кај регистраторот, во DNS поставки додајте:
+   - 4 × `A` записи за `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+   - `CNAME` запис за `www` → `<корисничко-име>.github.io`
+3. На GitHub: Settings → Pages → Custom domain → внесете `vivastar-dentistry.com` → Save, па штиклирајте **Enforce HTTPS** (се појавува по неколку минути).
+
+Проверете и: е-пошта vivstarng@gmail.com (точно спелување?), телефон 070 396 301, работно време пон–пет 08–20.
 
 ## По објавувањето
 

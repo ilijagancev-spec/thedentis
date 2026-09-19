@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://vivastar-kavadarci.github.io/thedentis/</loc>
-    <xhtml:link rel="alternate" hreflang="mk" href="https://vivastar-kavadarci.github.io/thedentis/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://vivastar-kavadarci.github.io/thedentis/en/"/>
+    <loc>https://vivastar-dentistry.com/</loc>
+    <xhtml:link rel="alternate" hreflang="mk" href="https://vivastar-dentistry.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vivastar-dentistry.com/en/"/>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://vivastar-kavadarci.github.io/thedentis/en/</loc>
-    <xhtml:link rel="alternate" hreflang="mk" href="https://vivastar-kavadarci.github.io/thedentis/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://vivastar-kavadarci.github.io/thedentis/en/"/>
+    <loc>https://vivastar-dentistry.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="mk" href="https://vivastar-dentistry.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vivastar-dentistry.com/en/"/>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
